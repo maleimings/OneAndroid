@@ -15,6 +15,10 @@ import android.content.Context;
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
+/**
+ * @see https://github.com/realm/realm-java/blob/feature/example/store_password/examples/StoreEncryptionPassword/src/main/java/realm/io/storeencryptionpassword/Store.java
+ */
+
 public class OneAndroidApplication extends Application{
     @Override
     public void onCreate() {
